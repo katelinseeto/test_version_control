@@ -1,0 +1,19 @@
+---
+title: "demo"
+author: "Katelin Seeto"
+date: "2/18/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Call info from existing scripts into new places
+Create function in .R by highlighting code you want in function and doing (ctrl+alt+shift)
+```{r}
+source("demo_script.R")
+
+thursday(taco = 10, burrito =5, mojito = 0)
+```
+
